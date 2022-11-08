@@ -1,0 +1,38 @@
+<meta charset="utf8">
+<script>
+/*
+ATIVIDADE PRÁTICA 2
+Elaborar um programa que leia a
+velocidade permitida em uma
+estrada e a velocidade de um
+condutor. Se a velocidade for
+inferior ou igual à permitida, exiba
+“Sem multa”. Se a velocidade for de
+até 20% maior que a permitida,
+exiba “Multa leve”. E, se a
+velocidade for superior a 20% da
+velocidade permitida, exiba “Multa
+Grave”
+*/
+
+
+var velocidadePermitida = Number(prompt("Informe a velocidade permitida"))
+
+var velocidadeCondutor = Number(prompt("Informe a velocidade do condutor"))
+
+ var multaLeve = velocidadePermitida*1.20
+
+
+if(velocidadePermitida>=velocidadeCondutor){
+
+    alert("Sem multa")
+}else if(multaLeve>=velocidadeCondutor){
+
+    alert("Multa leve")
+}else{
+
+    alert("Multa grave")
+}
+
+
+</script>
