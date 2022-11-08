@@ -1,0 +1,24 @@
+var n = prompt("Digite o número da tabuada");
+
+if(n==0 || isNaN(n)){
+
+	alert("Valor inválido. Digite um nũmero acima de zero")
+
+}else{
+
+var i = 1;
+
+var l = prompt("Digite o limite da tabuada")
+
+while(i<=l){
+
+document.write(i+"x"+n+"="+i*n+"<br>")
+i++;
+
+	}
+}
+
+
+
+
+</script>
