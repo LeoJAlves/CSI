@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pontos Turisticos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    
+  <!===== Barra de menu ====>  
+  
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+  <div class="container-fluid">
+     <a class="navbar-brand" href="home.html"><img src="img/logo.png" alt="Logo do Rio de Janeiro" style="width:40px;"> <!-- inclui style="width:40px; -->  </a>
+     
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="saibaMais.html">Pontos Turísticos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contato.html">Contato</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+    <main class="container">
+    <br>
+    <br>
+    <br>
+    <h1>Os Principais Pontos Turisticos do Rio de Janeiro!</h1>
+    
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+    
+    
+    
+    
+  <div class="col p-5">
+    <div class="card">
+      <img src="img/copacabana.webp" class="card-img-top" alt="Imagem da praia de copacabana">
+      <div class="card-body">
+        <h5 class="card-title">Praia de Copacabana</h5>
+        <p class="card-text">Famosa pela praia em forma de meia-lua, Copacabana é um dos bairros mais animados do Rio. Ela atrai moradores e turistas para atividades ininterruptas nas suas areias e no calçadão desenhado. Entre os arranha-céus com vista para a praia, estão o hotel Copacabana Palace em estilo art déco e o exuberante Forte de Copacabana, que abriga um museu militar. Mais para dentro do bairro, cafés descontraídos e bares casuais enchem as ruas sossegadas.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col p-5">
+    <div class="card">
+      <img src="img/lapa.png" class="card-img-top" alt="Imagem do Arcos da Lapa">
+      <div class="card-body">
+        <h5 class="card-title">Arcos da Lapa</h5>
+        <p class="card-text">A Lapa é um bairro boêmio e vibrante, conhecido por seus bares tradicionais, casas noturnas com música ao vivo, salões de dança e rodas de samba ao ar livre abaixo dos Arcos da Lapa, um aqueduto em estilo romano. Outra concentração de vida noturna é a área em torno da Escadaria Selarón, uma obra arquitetônica única adornada por mosaicos de azulejos pintados à mão. Durante o dia, os apaixonados por design circulam pelas lojas vintage e de antiguidades das Ruas do Lavradio e do Senado.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col p-5">
+    <div class="card">
+      <img src="img/jardim-botanico.jpeg" class="card-img-top" alt="Imagem de árvores dentro do Jardim Botânico">
+      <div class="card-body">
+        <h5 class="card-title">Jardim Botânico</h5>
+        <p class="card-text">O Jardim Botânico possui várias espécies de plantas, permitindo observar raridades da Floresta Amazônica e da Mata Atlântica. Há também orquidário, cactário, jardim mexicano, japonês, além de muito mais. Aposte num tênis confortável e aventure-se no local.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col p-5">
+    <div class="card">
+      <img src="img/Pedra_da_Gavea.jpeg" class="card-img-top" alt="Imagem da paisagem da Pedra da Gávea">
+      <div class="card-body">
+        <h5 class="card-title">Pedra da Gávea</h5>
+        <p class="card-text">A Pedra da Gávea, com 844 metros de altura, está localizada no Parque Nacional da Tijuca. Para subí-la, o visitante enfrenta um percurso de, no mínimo, três horas. Não é fácil, por isso requer alguns cuidados, como condicionamento físico e um guia com experiência. O esforço, no entanto, vale a pena: a vista, lá de cima, garantem que é fantástica.</p>
+      </div>
+    </div>
+  </div>
+
+<div class="col p-5">
+    <div class="card">
+      <img src="img/cristo-redentor.jpeg" class="card-img-top" alt="Imagem do Cristo Redentor de perto">
+      <div class="card-body">
+        <h5 class="card-title">Cristo Redentor</h5>
+        <p class="card-text">Literalmente de braços abertos, o Cristo Redentor, no morro do Corcovado,  recebe diariamente milhares de turistas de diversos lugares do mundo. É necessário subir 700 metros do nível do mar para, enfim, chegar ao pico onde está a estátua que é cartão postal da cidade. O Cristo Redentor fica dentro do Parque Nacional da Tijuca e existem duas maneiras de chegar: nas vans autorizadas do Paineiras, que saem de diversos pontos do Rio, e no trem do Corcovado.</p>
+      </div>
+    </div>
+  </div>
+
+<div class="col p-5">
+    <div class="card">
+      <img src="img/pao-de-acucar.jpeg" class="card-img-top" alt="Imagem de longe do bondinho do pão de açúca">
+      <div class="card-body">
+        <h5 class="card-title">Bondinho Pão de Açúcar</h5>
+        <p class="card-text">O Bondinho do Pão de Açúcar está entre os principais pontos turísticos do Rio de Janeiro e foi inaugurado em 1912, sendo o primeiro teleférico do Brasil e o terceiro no mundo. Ele liga o Morro da Urca ao Morro do Pão de Açúcar – e mais de 40 milhões de pessoas já andaram nos bondinhos
+          Lá do alto é possível encontrar uma deslumbrante paisagem da cidade, incluindo a enseada de Botafogo, a orla de Copacabana e a entrada da Baía de Guanabara. Vale a pena colocar um dos cartões postais da cidade no seu roteiro.</p>
+      </div>
+    </div>
+  </div>
+</div>
+    </main>
+    
+   <!-- ========  Aqui começa o rodapé - FOOTER  ======== -->
+  <footer class="footer mt-auto py-3 bg-dark ">
+    <div class="container">
+      <span class="text-white">&copy; 2022–2 CSI, Turma de Programação Web I</span>
+      <p class="float-end"><a href="#">Voltar ao topo</a></p>
+    </div>
+  </footer>
+  <!-- ======== FIM: FOOTER ======== --> 
+    
+    
+    <!----         --------INCLUINDO JS--------      --->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
